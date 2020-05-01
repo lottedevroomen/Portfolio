@@ -16,6 +16,22 @@ main {
 	align-items: center;
 }
 
+.playbutton {
+	height: 15px;
+	width: 14px;
+	float: left;
+	margin-top:3px;
+	margin-right: 7px;
+	background-image: url(../images/play_blauw.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.playbutton:hover {
+	background-image: url(../images/play_donkerblauw.png);
+}
+
+
 .buttonimg {
 	width: 20px;
 	padding-top: 30px;
