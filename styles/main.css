@@ -1,0 +1,168 @@
+body {
+	font-family: Open sans, Arial;
+	margin: 0;
+	font-weight: 400;
+}
+
+.naarboven {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  background-color: #004DF5; /* Set a background color */
+  padding: 15px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  width: 20px;
+  height: 20px;
+}
+
+.naarboven:hover {
+  background-color: #05164c; /* Set a background color */
+}
+
+
+.bovenbutton {
+	width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}﻿
+
+
+p {
+	line-height: 30px;
+	font-size: 16px;
+	color: #05164c;
+}
+
+h2 {
+	text-align: center;
+	color: #05164c;
+	font-size: 40px;
+	margin:0;
+	padding-top: 30px;
+	font-weight: bold;
+}
+
+h3 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #05164c;
+}
+
+h4{
+	font-weight: bold;
+	color: #05164c;
+	text-align: center;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	text-align: center;
+	width: 100%;
+	box-shadow: 0px -6px 15px black;
+	display: flex;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	z-index: 1;
+	background-color: #05164c;
+	
+}
+
+.header-item {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	padding: 0.5%;
+	flex: 1;
+}
+
+.header-item:hover {
+	color: #004DF5;
+}
+
+.actief {
+	color: #004DF5;
+}
+
+main {
+	padding-top: 10%; 
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-bottom: 30px;
+}
+
+.icon {
+	height: 30px;
+	margin-right:  7px;
+}
+
+.icon3 {
+	height: 13px;
+	margin-right:  7px;
+}
+
+.headericon {
+	height: 12px;
+	margin-right:  7px;
+	margin-right:  7px;
+	background-size: cover;	
+}
+
+@media screen and (min-width: 700px){
+	main{
+		padding-top: 9%; 
+	}
+	
+	header {
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+	
+	body {
+		font-weight: 300;
+	}
+
+}
+	
+@media screen and (min-width: 1200px) {
+	main{
+		padding-top: 7%; 
+	}
+	
+	p {
+		font-size: 16px;
+	}
+	
+	header {
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+}
+
+@media screen and (min-width: 1900px){
+	main{
+		padding-top: 6%; 
+	}
+
+}
+
+@media screen and (max-width: 500px){
+	main{
+		width: 90%; 
+	}
+
+}
+
+
+
+ 
+
+
+
+

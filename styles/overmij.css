@@ -1,0 +1,45 @@
+.mySlides{
+	width: 100%;
+	border-radius: 15px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+ul {
+    list-style-image: url('images/resultaat.png');
+    list-style-position: outside;
+	padding-left: 10px;
+}
+
+
+
+@media screen and (min-width: 700px){
+	h2 {
+		font-size: 40px;
+	}
+}
+	
+@media screen and (min-width: 1200px) {
+
+	.slider {
+		padding: 8% 0% 0% 0%;
+	}
+	
+	.flexcontainer {
+		display: flex;
+	}
+	
+	.flex-item {
+		flex: 1;
+	}
+	
+	.tekst2 {
+		padding-left: 4%;
+	}
+
+}
+
+
+

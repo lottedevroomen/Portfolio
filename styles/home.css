@@ -1,0 +1,77 @@
+body {
+	background-image: url(../images/hoofdpaginaheaderv2.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh; 
+	width: 100%;
+}
+
+.mainheader {
+	background: transparent;
+	box-shadow: none;
+}
+
+.parralax{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+
+.intro {
+	background-color: #05164c;
+	line-height: 35px;
+	font-size: 16px;
+}
+
+#pijl {
+	position: absolute;
+	width: 30px;
+	height: auto;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+p {
+	color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-bottom: 5%;
+}
+
+main {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+#pijl {
+	animation-timing-function: linear;
+	position: relative;
+	animation: mymove 3s infinite;
+}
+
+
+@keyframes mymove {
+  from {top: 110%;}
+  to {top: 80%;}
+}
+
+
+
+@media screen and (min-width: 1200px) {
+	#pijl {
+		width: 30px;
+	}
+	
+
+}
+
+
