@@ -23,6 +23,7 @@ body {
 	background-color: #05164c;
 	line-height: 35px;
 	font-size: 16px;
+	margin-bottom: -50px;
 }
 
 #pijl {
@@ -42,6 +43,7 @@ p {
 	margin-right: auto;
 	display: block;
 	padding-bottom: 5%;
+	
 }
 
 main {
@@ -60,7 +62,7 @@ main {
 
 
 @keyframes mymove {
-  from {top: 110%;}
+  from {top: 100%;}
   to {top: 80%;}
 }
 
