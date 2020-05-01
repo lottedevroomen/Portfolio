@@ -3,9 +3,6 @@
 	border-radius: 15px;
 }
 
-h2 {
-	font-size: 40px;
-}
 
 ul {
     list-style-image: url('images/resultaat.png');
@@ -15,11 +12,6 @@ ul {
 
 
 
-@media screen and (min-width: 700px){
-	h2 {
-		font-size: 40px;
-	}
-}
 	
 @media screen and (min-width: 1200px) {
 
