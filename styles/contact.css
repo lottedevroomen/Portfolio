@@ -77,6 +77,10 @@ a {
 	embed {
 		display: none;
 	}
+	
+	footer {
+		margin-top:550px;
+	}
 }
 
 
