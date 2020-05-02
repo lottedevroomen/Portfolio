@@ -1,7 +1,22 @@
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-light;
+  src: url(fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(fonts/OpenSans-Bold.ttf);
+}
+
 body {
-	font-family: Open sans, roboto;
+	font-family: "OpenSans-Light", sans-serif;
 	margin: 0;
-	font-weight: 400;
+
 }
 
 footer {
@@ -49,12 +64,14 @@ html {
 
 
 p {
+	font-family: "OpenSans-Light", sans-serif;
 	line-height: 30px;
 	font-size: 16px;
 	color: #05164c;
 }
 
 h2 {
+	font-family: "OpenSans-Bold", sans-serif;
 	text-align: center;
 	color: #05164c;
 	font-size: 30px;
@@ -64,6 +81,7 @@ h2 {
 }
 
 h3 {
+	font-family: "OpenSans-Bold", sans-serif;
 	text-align: center;
 	font-size: 25px;
 	font-weight: bold;
@@ -71,6 +89,7 @@ h3 {
 }
 
 h4{
+	font-family: "OpenSans-Bold", sans-serif;
 	font-weight: bold;
 	color: #05164c;
 	text-align: center;
@@ -92,8 +111,9 @@ header {
 }
 
 .header-item {
-	text-decoration: none;
+	font-family: "OpenSans-Bold", sans-serif;
 	font-weight: bold;
+	text-decoration: none;
 	color: white;
 	padding: 0.5%;
 	flex: 1;
