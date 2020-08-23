@@ -13,14 +13,13 @@
   src: url(fonts/OpenSans-Bold.ttf);
 }
 
-.onzichtbaar {
+.onzichtbaar { /* shareimage */
 	display: none;
 }
 
 body {
 	font-family: "OpenSans-Light", sans-serif;
 	margin: 0;
-
 }
 
 footer {
@@ -100,18 +99,17 @@ h4{
 	font-size: 20px;
 }
 
-header {
+.mainheader {
 	position: fixed;
 	top: 0;
 	text-align: center;
 	width: 100%;
 	box-shadow: 0px -6px 15px black;
 	display: flex;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
 	z-index: 1;
 	background-color: #05164c;
-	
 }
 
 .header-item {
@@ -210,9 +208,44 @@ main {
 @media screen and (max-width: 500px){
 	main{
 		width: 90%; 
+		padding-top: 0;
 	}
-
+	
+	.mainheader {
+		display: none;
+	}
+	
+	.mobielheader {
+		position: fixed;
+		top: 92%;
+		text-align: center;
+		width: 100%;
+		display: flex;
+		padding-top: 4%;
+		padding-bottom: 6%;
+		z-index: 1;
+		background-color: #05164c;
+	}
+	
+	.headericon {
+		height: 17px;	
+	}
+	
+	footer {
+		padding-bottom: 55px;
+	}
+	
+	.naarboven { 
+	  bottom: 80px; /* Place the button at the bottom of the page */
+	}
 }
+
+@media screen and (min-width: 501px){
+	.mobielheader {
+		display: none;
+	}
+}
+
 
 
 
