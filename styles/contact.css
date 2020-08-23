@@ -6,7 +6,7 @@ embed {
 	display: block;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	background-color: #05164c;
+	background-color: white;
 }
 
 .grid-item {
@@ -70,16 +70,15 @@ a {
 		width: 8%;
 	}
 	
-	
 }
 
 @media screen and (max-width: 700px) {	
-	embed {
+	embed{
 		display: none;
 	}
 	
 	footer {
-		margin-top:550px;
+		margin-top:100px;
 	}
 }
 
