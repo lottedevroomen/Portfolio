@@ -9,7 +9,7 @@
 
 .boven3{
 	display: grid;
-	grid-template-columns: 0.5fr 1fr 250px 1fr 0.5fr;
+	grid-template-columns: 0fr 1fr 250px 1fr 0fr;
 	width: 100%;
 	align-items: center;
 }
@@ -29,12 +29,10 @@
 	background-image: url(../images/play_donkerblauw.png);
 }
 
-
 .buttonimg {
 	width: 20px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	padding-left: 40%;
 }
 
 button {
@@ -155,6 +153,7 @@ video {
 	
 	.buttonimg {
 		width: 20%;
+		padding-left: 40%;
 	}
 	
 	.buttonimg2 {
