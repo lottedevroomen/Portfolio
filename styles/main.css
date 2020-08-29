@@ -102,14 +102,19 @@ h4{
 .mainheader {
 	position: fixed;
 	top: 0;
-	text-align: center;
 	width: 100%;
 	box-shadow: 0px -6px 15px black;
-	display: flex;
 	padding-top: 1.5%;
 	padding-bottom: 1.5%;
 	z-index: 1;
 	background-color: #05164c;
+}
+
+.rightheader {
+	text-align: right;
+	display: flex;
+	width: 70%;
+	margin-left: 20%;
 }
 
 .header-item {
@@ -153,9 +158,21 @@ main {
 	margin-right:  7px;
 }
 
+.logoicon {
+	height: 35px;
+	float: left;
+	margin-left: 10%;
+}
+
+
 @media screen and (min-width: 700px){
 	main{
-		padding-top: 9%; 
+		padding-top: 7%; 
+	}
+	
+	.rightheader {
+		width: 40%;
+		margin-left: 50%;
 	}
 	
 	header {
@@ -178,12 +195,16 @@ main {
 	.footer {
 		width: 25%;
 	}
+	
+	
+}
 }
 	
 @media screen and (min-width: 1200px) {
 	main{
 		padding-top: 7%; 
 	}
+	
 	
 	p {
 		font-size: 16px;
@@ -227,6 +248,14 @@ main {
 		background-color: #05164c;
 	}
 	
+	.logo {  /* zie mijn werk als test*/
+		height: 20px;
+		padding-top: 10px;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+}
+	
 	.headericon {
 		height: 17px;	
 	}
@@ -243,6 +272,11 @@ main {
 @media screen and (min-width: 501px){
 	.mobielheader {
 		display: none;
+	}
+	
+	.logo {
+		display: none;
+		
 	}
 }
 
